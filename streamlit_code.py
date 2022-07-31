@@ -1,7 +1,7 @@
 import streamlit as st
 import pandas as pd
 st.title(“A Simple Streamlit Web App”)
-name = st.text_input(“Enter your name”, ‘’)
+name = st.text_input("Enter your name", '')
 
 # model_path = "/dsi/gannot-lab/datasets/mordehay/Result/Test"
 # models = os.listdir(model_path)
