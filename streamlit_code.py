@@ -1,10 +1,7 @@
-import os
 import streamlit as st
-import glob
-#from typing_extensions import TypeGuard
-
-st.title("Model Compare")
-st.set_page_config(layout="wide")
+import pandas as pd
+st.title(“A Simple Streamlit Web App”)
+name = st.text_input(“Enter your name”, ‘’)
 
 # model_path = "/dsi/gannot-lab/datasets/mordehay/Result/Test"
 # models = os.listdir(model_path)
