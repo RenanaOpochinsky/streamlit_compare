@@ -7,11 +7,11 @@ st.title("Audio Examples of paper: Speech2Sing: A Zero-Shot Many-to-Many Speech 
 # st.set_page_config(layout="wide")
 
 
-files_dir = '/sample_audio/sample_audio/full_flow/'
+files_dir = 'sample_audio/sample_audio/full_flow/'
 col1, col2, col3, col4 = st.columns(4)
 with col1:
     #files_dir = '/dsi/gannot-lab/sample_audio/sample_audio/full_flow/'
-    mix_file1 = "sample_audio/sample_audio/full_flow/halleluya-instrumental.wav"
+    mix_file1 =  os.path.join(files_dir, 'halleluya-instrumental.wav')
     #/sample_audio/sample_audio/full_flow/halleluya-instrumental.wav
     #os.path.join(files_dir, 'person_a-original_halleluya-acapella.wav')
     st.text('output1 signal:')
