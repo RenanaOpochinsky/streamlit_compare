@@ -6,8 +6,6 @@ import glob
 st.title("Audio Examples of paper: Speech2Sing: A Zero-Shot Many-to-Many Speech to Sing Neural Network")
 # st.set_page_config(layout="wide")
 
-model_path = "/dsi/gannot-lab/sample_audio/"
-models = os.listdir(model_path)
 
 files_dir = '/home/lab/renana/PycharmProjects/streamlit_compare/sample_audio/sample_audio/'
 col1, col2, col3, col4 = st.columns(4)
