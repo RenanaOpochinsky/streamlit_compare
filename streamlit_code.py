@@ -11,10 +11,11 @@ files_dir = '/sample_audio/sample_audio/full_flow/'
 col1, col2, col3, col4 = st.columns(4)
 with col1:
     #files_dir = '/dsi/gannot-lab/sample_audio/sample_audio/full_flow/'
-    mix_file = "/sample_audio/sample_audio/full_flow/halleluya-instrumental.wav"
+    mix_file1 = "/sample_audio/sample_audio/full_flow/halleluya-instrumental.wav"
+    #/sample_audio/sample_audio/full_flow/halleluya-instrumental.wav
     #os.path.join(files_dir, 'person_a-original_halleluya-acapella.wav')
     st.text('output1 signal:')
-    st.audio(mix_file)
+    st.audio(mix_file1)
     #"/dsi/gannot-lab/sample_audio/sample_audio/full_flow/person_a-original_halleluya-acapella.wav"
 
 with col2:
