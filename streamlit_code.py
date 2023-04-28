@@ -7,7 +7,7 @@ st.title("Audio Examples of paper: Speech2Sing: A Zero-Shot Many-to-Many Speech 
 # st.set_page_config(layout="wide")
 
 
-files_dir = '/home/lab/renana/PycharmProjects/streamlit_compare/sample_audio/sample_audio/'
+files_dir = '/sample_audio/sample_audio/'
 col1, col2, col3, col4 = st.columns(4)
 with col1:
     #files_dir = '/dsi/gannot-lab/sample_audio/sample_audio/full_flow/'
